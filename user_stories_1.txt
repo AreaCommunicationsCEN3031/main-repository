@@ -1,0 +1,22 @@
+
+USER STORIES 1
+
+
+Primary Features
+
+As a customer, I am looking for a web-app that can...
+
+	1. Handle the scheduling of a several simultaneous contracts.
+	2. Display the contracts in an easy to read format with due dates clearly defined in a combined calendar view.
+	3. Contain a map view of all current contracts with features such as LAT/LON data input.
+	4. Combine several different types of information into one easy format.
+	5. Ability to scan in documents to the contract.
+	
+Secondary Features
+
+Other features that I hope are included...
+
+	1. The ability to have a checklist of prerequisites for each dig-site.
+	2. The inclusions of different "moderator" and "user" views.
+	3. The ability to show "red-lines" on a map that designate boundaries.
+	4. Powerful and intuitive interface that requires to little to no training.
