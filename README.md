@@ -8,7 +8,7 @@ The main repository for the project with Area Communications
 **Site ID/Location/Maps**
 - a. Latitude / longitude (can it connect with Google map views?)
 - b. Tower layout
-- Specifications for 811 locate services 
+**Specifications for 811 locate services** 
 - a. Dig plan – description 
 - b. Redlines – should be marked on map view
 
