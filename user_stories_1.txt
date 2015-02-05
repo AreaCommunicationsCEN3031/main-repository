@@ -1,15 +1,21 @@
 
 USER STORIES 1
 
+As a non-admin user, I want to
 
-As a customer, I want to
+    1. log in
+    2. see contract in list view
+    3. see contract in map view
+    4. see contract in calendar view
+    5. add new contracts
+    6. scan contract documents 
+ 
 
-	1. Handle the scheduling of a several simultaneous contracts.
-	2. Display the contracts in an easy to read format with due dates clearly defined in a combined calendar view.
-	3. see map view of all current contracts with features such as LAT/LON data input.
-	4. Combine several different types of information into one easy format.
-	5. scan in documents to the contract.
-	6. have a checklist of prerequisites for each dig-site.
-	7. have inclusions of different "moderator" and "user" views.
-	8. show "red-lines" on a map that designate boundaries.
-	9. have an intuitive interface that requires to little to no training.
+As an administrator, I want to 
+
+    1. have a master username and password
+    2. log in 
+    3. add user accounts including usernames, passwords and emails
+    4. delete accounts
+    5. add contracts
+    6. access all views
