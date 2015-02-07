@@ -1,0 +1,21 @@
+
+USER STORIES 1
+
+As a non-admin user, I want to
+
+    1. log in
+    2. see contract in list view
+    3. see contract in map view
+    4. see contract in calendar view
+    5. add new contracts
+    6. scan contract documents 
+ 
+
+As an administrator, I want to 
+
+    1. have a master username and password
+    2. log in 
+    3. add user accounts including usernames, passwords and emails
+    4. delete accounts
+    5. add contracts
+    6. access all views

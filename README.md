@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![MEAN.JS Logo](http://meanjs.org/img/logo-small.png)](http://meanjs.org/)
 
 [![Build Status](https://travis-ci.org/meanjs/mean.svg?branch=master)](https://travis-ci.org/meanjs/mean)
@@ -147,3 +148,41 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+=======
+# main-repository
+The main repository for the project with Area Communications
+
+**Project Name**: Area Communications Tower Logistics Web-app
+
+**Project Description**: Specifications given so far by the customer call for a web-app that eases the process of constructing towers for a long term contract with several customers. Specifications include:
+
+**Site ID/Location/Maps**
+- a. Latitude / longitude (can it connect with Google map views?)
+- b. Tower layout
+
+**Specifications for 811 locate services** 
+- a. Dig plan – description 
+- b. Redlines – should be marked on map view
+
+**Site checklist – must include (similar to Excel spreadsheet)**
+- [ ] a. Site ID
+- [ ] b. P.O. Owner
+- [ ] c. P.O. number
+- [ ] d. Prints included (yes or no) check-off
+- [ ] e. Tower Owner 
+- [ ] f. Locates (yes or no)  check-off
+- [ ] g. Notice To Proceed/NTP (yes or no) check-off
+- [ ] h. Start date
+- [ ] i. Completion date
+- [ ] j. Notes
+- [ ] k. Net amount
+
+
+**Group Members:**
+* Tyler Chancey
+* Sangeetha Matchanickal
+* Josh Cambell
+* Zack Nguyen
+* Gabriel Duarte
+* Michael Santiago
+>>>>>>> 05189bd2acd9426deab5b8fd2a2eece723879ff3
