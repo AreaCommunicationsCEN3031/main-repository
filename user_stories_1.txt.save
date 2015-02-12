@@ -1,0 +1,15 @@
+
+USER STORIES 1
+As a customer, I want to
+
+
+
+	1. Handle the scheduling of a several simultaneous contracts.
+	2. Display the contracts in an easy to read format with due dates clearly defined in a combined calendar view.
+	3. see map view of all current contracts with features such as LAT/LON data input.
+	4. Combine several different types of information into one easy format.
+	5. scan in documents to the contract.
+	6. have a checklist of prerequisites for each dig-site.
+	7. have inclusions of different "moderator" and "user" views.
+	8. show "red-lines" on a map that designate boundaries.
+	9. have an intuitive interface that requires to little to no training.
