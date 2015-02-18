@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+
+		<title>Area Communications</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+		<link rel='stylesheet' href='fullcalendar/dist/fullcalendar.css' />
+		<script src='moment/min/moment.min.js'></script>
+		<script src='fullcalendar/dist/fullcalendar.js'></script>
+
+		<script type="text/javascript">
+		$(document).ready(function() {
+
+		    // page is now ready, initialize the calendar...
+
+		    $('#calendar').fullCalendar({
+		        // put your options and callbacks here
+		    })
+
+		});
+		</script>
+	
+	</head>
+
+	<body>
+		<!-- Navigation Bar -->
+		<div class="nav-bar full">
+			<div class="calendar-tab tab quarter tab-selected">Calendar</div>
+			<div class="list-tab tab quarter">List</div>
+			<div class="map-tab tab quarter">Map</div>
+			<div class="contract-tab tab quarter">Create Contract</div>
+		</div>
+
+		<!-- Sub-Navigation Bar -->
+		<div class="sub-nav-bar three-fourths">
+			<div class="left-sub-tab sub-tab third ">&lt;</div>
+			<div class="middle-sub-tab sub-tab third" style="width:33.34%;">Feb 2015</div>
+			<div class="right-sub-tab sub-tab third">&gt;</div>
+		</div>
+
+		<!-- Right Panel -->
+		<div class="right-panel quarter">
+
+			<div class="account-info quarter">
+				<div class="left-account-info three-fourths">
+					<div class="account-name full">Admin</div>
+					<div class="account-username full">admin123</div>
+				</div>
+				<div class="right-account-info quarter"><p>+</p></div>
+				<div class="account-settings full">Settings</div>
+				<div class="account-logout full">Logout</div>
+			</div>
+
+		</div>
+
+		<!-- Main View (holds calendar/list/map views) -->
+		<div class="main-view three-fourths">
+			<!-- Calendar / List / Map Views -->
+			<div id='calendar'></div>
+		</div>
+
+		<!-- additional scripts -->
+		<script src="main_js.js"></script>
+	</body>
+
+</html>
