@@ -40,6 +40,14 @@ $('.right-sub-tab').on('click', function() {
 
 });
 
+// On middle sub-tab click (in calendar mode)
+$('.middle-sub-tab').on('click', function() {
+
+	// Display list of Months/Years to fast travel there
+	// ALSO have a button to go back to TODAY
+
+});
+
 // Function to resize Calendar From Default Week/Row Height to fit into main-view
 /* * * * * Doesn't work on window resize for some reason. Only on page load. Must fix * * * * */
 function resizeCalendar()
