@@ -10,6 +10,10 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 		$stateProvider.
 		state('home', {
 			url: '/',
+			templateUrl: 'modules/users/views/authentication/signin.client.view.html'
+		}).
+		state('main', {
+			url: '/main',
 			templateUrl: 'modules/core/views/home.client.view.html'
 		});
 	}

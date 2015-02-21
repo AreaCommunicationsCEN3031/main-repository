@@ -1,35 +1,68 @@
 <section class = "row" data-ng-controller="HomeController">
-	<img src="../modules/core/img/logo.png" alt="..." class="img-responsive center-block"  height="390" width="390"/>
-	<h4 class = "col-md-12 text-center"> </h4>
-	<div class = "col-xs-offset-1 col-xs-10 col-md-offset-4 col-md-4">
-		<form data-ng-submit = "signin()" class = "signin form-horizontal" autocomplete = "off">
-			<fieldset>
-				<div data-ng-show = "error" class = "text-center text-danger">
-					<strong data-ng bind = "error"> </strong>
+	<head>
+
+		<title>Area Communications</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+		<link rel='stylesheet' href='_fullcalendar/fullcalendar/dist/fullcalendar.css' />
+		<script src='_fullcalendar/moment/min/moment.min.js'></script>
+		<script src='_fullcalendar/fullcalendar/dist/fullcalendar.js'></script>
+
+		<script type="text/javascript">
+		$(document).ready(function() {
+
+		    $('#calendar').fullCalendar({
+		        // put your options and callbacks here
+		    })
+
+		});
+		</script>
+	
+	</head>
+
+	<body>
+		<!-- Navigation Bar -->
+		<div class="nav-bar full">
+			<div class="calendar-tab tab quarter tab-selected">Calendar</div>
+			<div class="list-tab tab quarter">List</div>
+			<div class="map-tab tab quarter">Map</div>
+			<div class="contract-tab tab quarter">Create Contract</div>
+		</div>
+
+		<!-- Sub-Navigation Bar -->
+		<div class="sub-nav-bar three-fourths">
+			<div class="left-sub-tab sub-tab third ">&lt;</div>
+			<div class="middle-sub-tab sub-tab third" style="width:33.34%;">Feb 2015</div>
+			<div class="right-sub-tab sub-tab third">&gt;</div>
+		</div>
+
+		<!-- Right Panel -->
+		<div class="right-panel quarter">
+
+			<div class="account-info quarter">
+				<div class="left-account-info three-fourths">
+					<div class="account-name full">Admin</div>
+					<div class="account-username full">admin123</div>
 				</div>
-				<div class = "form-group">
-					<div class = "input-group input-group-lg">
-					<span class = "input-group-addon">
-						<i class = "text-muted glyphicon glyphicon-user"></i>
-					</span>
-						<input type = "text" id = "username" name = "username" class = "form-control" data-ng-model="credentials.username" placeholder="Username">
-					</div>
-				</div>
-				<div class = "form-group">
-					<div class = "input-group input-group-lg">
-					<span class = "input-group-addon">
-						<i class = "text-muted glyphicon glyphicon-asterisk"></i>
-					</span>
-						<input type = "password" id = "password" name = "password" class = "form-control" data-ng-model="credentials.password" placeholder="Password">
-					</div>
-				</div>
-				<div class = "text-center form-group">
-					<button type = "submit" class = "btn btn-danger btn-lg btn-block" id = "btnSubmit">Sign in </button>
-				</div>
-				<div class="forgot-password">
-					<a href="/#!/password/forgot" style="color:black" >Forgot your password?</a>
-				</div>
-			</fieldset>
-		</form>
-	</div>
+				<div class="right-account-info quarter"><p>+</p></div>
+				<div class="account-settings full">Settings</div>
+				<div class="account-logout full">Logout</div>
+			</div>
+
+		</div>
+
+		<!-- Main View (holds calendar/list/map views) -->
+		<div class="main-view three-fourths">
+			<!-- Calendar / List / Map Views -->
+			<div id='calendar'></div>
+		</div>
+
+		<!-- additional scripts -->
+		<script src="main_js.js"></script>
+	</body>
 </section>
