@@ -1,0 +1,254 @@
+/* Defaults throughout website START */
+*
+{
+	margin: 0;
+	padding: 0;
+
+	cursor: default;
+
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+
+	font-family: helvetica, sans-serif;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Defaults throughout website END */
+
+body
+{
+	min-width: 600px;
+}
+
+/** Navigation Bar Styles START **/
+.nav-bar
+{
+	height: 50px;
+}
+
+/* navigation tab styles START */
+.tab
+{
+	height: 50px;
+	float: left;
+	border-right: 1px solid #C7B885;
+	border-bottom: 1px solid #C7B885;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+
+	background: -webkit-linear-gradient(#FFECAA, #E0D096); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#FFECAA, #E0D096); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#FFECAA, #E0D096); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#FFECAA, #E0D096); /* Standard syntax */
+}
+
+.tab-selected
+{
+	background: #C7B885 !important;
+}
+
+.contract-tab
+{
+	color: white;
+	border-bottom: 1px solid #209150;
+
+	background: -webkit-linear-gradient(#2ecc71, #27ae60); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#2ecc71, #27ae60); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#2ecc71, #27ae60); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#2ecc71, #27ae60); /* Standard syntax */
+}
+
+.contract-tab:active
+{
+	background: #209150;
+}
+/* navigation tab styles END*/
+/** Navigation Styles END **/
+
+/* tabs under navigation tab styles START */
+.sub-tab
+{
+	height: 50px;
+	float: left;
+	border-right: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+
+	background: -webkit-linear-gradient(#F0F0F0, #EDEDED); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#F0F0F0, #EDEDED); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#F0F0F0, #EDEDED); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#F0F0F0, #EDEDED); /* Standard syntax */
+}
+
+.sub-tab:active
+{
+	background: #CFCFCF !important;
+}
+/* tabs under navigation tab styles END*/
+
+/* Main view styles */
+.main-view
+{
+	min-height: 500px;
+	float: left;
+}
+/* Main view styles END */
+
+/** Right Panel Styles START **/
+.right-panel
+{
+	float: right;
+	height: 100px;
+	
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQIW2NctWrVfwYouHfvHgMjTADEUVJSggjAOCCFjB0dHf9BMjAAADPxFJNDP583AAAAAElFTkSuQmCC) repeat;
+}
+
+/* Account info styles START */
+.account-info
+{
+	height: 175px;
+	background-color: #EEEEEE;
+	position: fixed;
+	bottom: -100px;
+
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+
+.account-info-open
+{
+	bottom: 0;
+}
+
+.left-account-info
+{
+	float: left;
+	height: 75px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.account-name
+{
+	height: 50px;
+	line-height: 50px;
+
+	font-size: 22px;
+}
+
+.account-username
+{
+	height: 25px;
+	margin-top: -10px;
+
+	font-size: 14px;
+	color: #666666;
+}
+
+.right-account-info
+{
+	float: right;
+	height: 75px;
+
+	text-align: center;
+	line-height: 75px;
+	font-size: 32px;
+}
+
+.right-account-info p
+{
+	cursor: pointer;
+}
+
+.account-settings
+{
+	float: left;
+	height: 50px;
+	cursor: pointer;
+
+	color: white;
+	background: #2980b9;
+
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+}
+
+.account-settings:hover
+{
+	background: #3498db;
+}
+
+.account-logout
+{
+	float: left;
+	height: 50px;
+	cursor: pointer;
+
+	color: white;
+	background: #c0392b;
+
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+}
+
+.account-logout:hover
+{
+	background: #e74c3c;
+}
+/* Account info styles END */
+/** Right Panel Styles END **/
+
+#calendar
+{
+	margin-top: -1px;
+}
+
+.fc-toolbar
+{
+	display: none;
+}
+
+/* widths */
+.full
+{
+	width: 100%;
+}
+
+.three-fourths
+{
+	width: 75%;
+}
+
+.two-thirds
+{
+	width: 66.66%;
+}
+
+.half
+{
+	width: 50%;
+}
+
+.third
+{
+	width: 33.33%;
+}
+
+.quarter
+{
+	width: 25%;
+}
+/* widths END */
