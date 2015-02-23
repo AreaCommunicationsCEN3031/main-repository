@@ -1,9 +1,10 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://ty:yo@ds050087.mongolab.com:50087/areacom',
+	db: 'mongodb://ty:yo@ds050087.mongolab.com:50087/areacom'
+	,
 
-	log: {
+	/*: {
 		// Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
 		format: 'dev',
 		// Stream defaults to process.stdout
@@ -12,6 +13,7 @@ module.exports = {
 			//stream: 'access.log'
 		}
 	},
+	*/
 	app: {
 		title: 'MEAN.JS - Development Environment'
 	},
