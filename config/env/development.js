@@ -1,13 +1,8 @@
 'use strict';
 
 module.exports = {
-	db: {
-		uri: 'mongodb://ty:yo@ds050087.mongolab.com:50087/areacom',
-		options: {
-			user: 'ty',
-			pass: 'yo'
-		}
-	},
+	db: 'mongodb://ty:yo@ds050087.mongolab.com:50087/areacom',
+
 	log: {
 		// Can specify one of 'combined', 'common', 'dev', 'short', 'tiny'
 		format: 'dev',
