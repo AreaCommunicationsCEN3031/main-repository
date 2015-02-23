@@ -21,7 +21,7 @@ module.exports = {
 	app: {
 		title: 'MEAN.JS - Test Environment'
 	},
-	facebook: {
+	/*facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
 		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
 		callbackURL: '/auth/facebook/callback'
@@ -45,7 +45,7 @@ module.exports = {
 		clientID: process.env.GITHUB_ID || 'APP_ID',
 		clientSecret: process.env.GITHUB_SECRET || 'APP_SECRET',
 		callbackURL: '/auth/github/callback'
-	},
+	},*/
 	mailer: {
 		from: process.env.MAILER_FROM || 'MAILER_FROM',
 		options: {
