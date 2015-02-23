@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: ' mongodb://<dbuser>:<dbpassword>@ds050087.mongolab.com:50087/areacom',
+		uri: 'mongodb://ty:yo@ds050087.mongolab.com:50087/areacom',
 		options: {
 			user: 'ty',
 			pass: 'yo'
