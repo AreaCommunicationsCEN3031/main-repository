@@ -2,7 +2,8 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://localhost/mean-dev',
+		uri: 'mongodb://acomadmin:coma3031@ds050087.mongolab.com:50087/areacom',
+
 		options: {
 			user: '',
 			pass: ''
@@ -17,6 +18,8 @@ module.exports = {
 			//stream: 'access.log'
 		}
 	},
+
+    //db: 'mongodb://localhost/mean-dev',
 	app: {
 		title: 'MEAN.JS - Development Environment'
 	},

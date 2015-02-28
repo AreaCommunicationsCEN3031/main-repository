@@ -21,8 +21,8 @@ angular.module('users').controller('AuthenticationController', ['$scope', '$http
 		};
 		// $scope.deleteButton = true;
 		// $scope.CreateAdmin = function(){
-		// 	$scope.credentials.username = "areacommunication";
-		// 	$scope.creadentials.password = "12345";
+		//	$scope.credentials.username = "areacommunication";
+		//	$scope.credentials.password = "12345";
 		// 	$scope.creadentials.roles = "admin"; 
 		// 	$scope.signup();
 		// 	$scope.creadentials = {};
@@ -36,7 +36,7 @@ angular.module('users').controller('AuthenticationController', ['$scope', '$http
 				$scope.authentication.user = response;
 
 				// And redirect to the index page
-				$location.path('/main');
+				$location.path('/password/forgot');
 			}).error(function(response) {
 				$scope.error = response.message;
 			});

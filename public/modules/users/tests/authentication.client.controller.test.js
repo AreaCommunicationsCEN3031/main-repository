@@ -48,7 +48,7 @@
 
 		it('$scope.signin() should login with a correct user and password', function() {
 			// Test expected GET request
-			$httpBackend.when('POST', '/auth/signin').respond(200, 'Fred');
+			$httpBackend.when('POST', '/auth/signin').respond(200, 'Fred'); // sending to backend
 
 			scope.signin();
 			$httpBackend.flush();
